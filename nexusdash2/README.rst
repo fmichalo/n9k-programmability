@@ -52,7 +52,7 @@ Follow these CLI commands to install all dependencies::
     $ pip install -r requirements.txt
 
 
-If some packages are not installed via pip install -r ./requirements.txt, please try :code:`conda install <package>`
+If some packages are not installed via :code:`pip install -r ./requirements.txt`, please try :code:`conda install <package>`
 
 2) Start the Django Server
 --------------------------
