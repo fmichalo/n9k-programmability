@@ -7,6 +7,7 @@ Program
 Nexus Dash
 
 - A Django based monitoring web dashboard for Nexus machines. Simply drop-in the app and go!
+(from https://github.com/datacenter/nexus9000 but modified to make it works)
 
 Features
 ========
