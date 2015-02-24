@@ -59,7 +59,7 @@ else:
     # Load and parse XML
     tree = ET.ElementTree(ET.fromstring(raw))
     data = tree.getroot()
-
+    
     # Find and display interface rate information
     if_manager = '{http://www.cisco.com/nxos:1.0:if_manager}'
     table = "{0:16}{1:9}{2:9}{3:9}{4:9}{5:9}{6:9}{7:9}"
