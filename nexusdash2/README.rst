@@ -80,7 +80,7 @@ Follow these CLI commands to run the Django Server::
     $ python manage.py runserver 0.0.0.0:5555 --noreload
     $ 
     $ # To run in Production env (DO NOT USE PREVIOUS COMMAND IN PRODUCTION)
-    $ # Deploying Django with `Apache and mod_wsgi<https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/modwsgi/#how-to-use-django-with-apache-and-mod-wsgi>`_.
+    $ # Deploying Django with `Apache and mod_wsgi <https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/modwsgi/#how-to-use-django-with-apache-and-mod-wsgi>`__
     
     
 
@@ -105,7 +105,7 @@ Follow these CLI commands to start Celery::
     $ # Start celery
     $ celery -A nexusdash worker -l info
     $ 
-    $ # In production, you may want to `run celery as a deamon<http://celery.readthedocs.org/en/latest/tutorials/daemonizing.html>`_.
+    $ # In production, you may want to `run celery as a deamon <http://celery.readthedocs.org/en/latest/tutorials/daemonizing.html>`__
     $
 
     
