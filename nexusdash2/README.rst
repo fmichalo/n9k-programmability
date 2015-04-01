@@ -69,9 +69,7 @@ Follow these CLI commands to run the Django Server::
     $ # Sync Database and create root admin account
     $ python manage.py syncdb
     $
-    $ # If you have a message that says tables are not synced and need to be migrate execute theses following commands 
-    $ # (because of a bug, you need to make a fake migrate before the real migrate)
-    $ # For example for celery: python manage.py migrate djcelery 0001 --fake
+    $ # If you have a message that says tables are not synced and need to be migrate execute the following commands 
     $ # python manage.py migrate djcelery
     $
     $
