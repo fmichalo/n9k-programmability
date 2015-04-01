@@ -32,7 +32,7 @@ class Device():
   def open(self):
 
     self.sw1 = NXAPI()
-    self.sw1.set_target_url('http://'+self.ip+'/ins')
+    self.sw1.set_target_url('https://'+self.ip+'/ins')
     self.sw1.set_username(self.username)
     self.sw1.set_password(self.password)
 
