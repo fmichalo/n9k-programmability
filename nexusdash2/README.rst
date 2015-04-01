@@ -28,7 +28,7 @@ Features
 Installation (Unix)
 ===================
 
-Make sure to first install necessary libraries: :code:`sudo apt-get install python python-dev libatlas-base-dev gcc gfortran g++` (thanks to Shameer Ali)
+Make sure to first install necessary libraries: :code:`sudo apt-get install python python-dev libatlas-base-dev gcc gfortran g++ libxml2-dev libxslt1-dev python-dev zlib1g-dev` (thanks to Shameer Ali)
 
 1) Install Dependencies using Conda
 -----------------------------------
