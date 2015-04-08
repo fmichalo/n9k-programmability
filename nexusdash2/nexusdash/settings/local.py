@@ -32,6 +32,9 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
+        'OPTIONS': {
+            'timeout':30000
+        }
     }
 }
 ########## END DATABASE CONFIGURATION
